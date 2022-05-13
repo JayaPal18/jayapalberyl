@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>list elements</title>
+</head>
+<body>
+  <ol>
+  	<li>coffee</li>
+    <li>tea</li>
+    <li>milk</li>
+  </ol>
+
+  <hr>
+
+  <ul type="square">
+  	<li>coffee</li>
+  	<li>tea</li>
+    <li>milk</li>
+</ul>
+
+<hr>
+
+<dl>
+	<dt>coffee</dt>
+	<dd>coffee have emerging taste</dd>
+	<dt>Milk</dt>
+		<dd>Milk  has the most important components in fooditems</dd>
+	</dl>
+
+
+
+
+
+
+
+</body>
+</html>
