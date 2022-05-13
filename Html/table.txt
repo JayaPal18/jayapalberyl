@@ -1,0 +1,111 @@
+<html>
+<head>
+<title>Table data</title>
+</head>
+<style>
+	table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+  border-spacing: 10px;
+  border-style: ridge;
+  text-shadow: 12px;
+  text-align: center;
+
+}
+caption{
+	color: black;
+	font-size: 19px;
+	font-family: cursive;
+}
+th:hover
+{
+	color:red;
+}
+td:hover{
+    color: pink;
+}
+
+
+</style>
+</style>
+<body>
+
+<table>
+	<caption>Data Set</caption>
+	<colgroup>
+    <col span="2" style="background-color: #D6EEEE">
+    <col span="1" style="background-color: pink;">
+  </colgroup>
+  <tr>
+  <th colspan="2">Semester</th>
+  <th colspan="2">Grade</th>
+  </tr>	
+  <tr>
+    <td>1</td>
+    <td>Jan-April</td>
+    <td>Credit</td>	
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>May-August</td>
+    <td>Pass</td>	
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>September-December</td>
+    <td>Distinction</td>	
+  </tr>
+</table>
+<br><br>
+<hr>
+<br><br>
+<table>
+	<caption>Student Record</caption>
+	<colgroup>
+		<col span="=1" style="background-color: yellowgreen;">
+		<col span="2" style="background-color:silver;">
+	</colgroup>
+	<tr>
+		<th>Name</th>
+		<th>Subject</th>
+		<th>Marks</th>
+	</tr>
+
+	<tr>
+		<td rowspan="2">Hillary</td>
+		<td>Advanced Web</td>
+		<td>75</td>
+	</tr>
+	<tr>
+		<td>Operating system</td>
+		<td>60</td>
+	</tr>
+	<tr>
+		<td rowspan="2">Lary</td>
+		<td>Advanced Web</td>
+		<td>80</td>
+	</tr>
+	<tr>
+		<td>Operating system</td>
+		<td>75</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td colspan="2">Total Average:72.5</td>
+	</tr>
+
+  
+  
+
+	
+
+
+
+
+
+</table>
+
+
+</body>
+</html>
