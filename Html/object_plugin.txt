@@ -1,0 +1,16 @@
+!<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>object plugin</title>
+</head>
+<body>
+<object height="400" width="400" data="studentform.html"></object>
+<object height="400" width="400" data="basic.html"></object>
+<object height="400" width="400" data="list.html"></object>
+<object height="400" width="400" data="emoji.html"></object>
+<object height="400" width="400" data="list.html"></object>
+<object height="400" width="400" data="style.html"></object>
+</body>
+</html>
